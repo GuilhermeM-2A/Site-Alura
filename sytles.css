@@ -1,0 +1,47 @@
+
+body{
+    background: blue;
+    color: black;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+header{
+    border-bottom: solid 3px black;
+    padding: 20px;
+    font-size: 32px;
+    background: yellow;
+    color: blue;
+}
+
+.topo{
+    background: red;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 30;
+
+}
+.topo h1{
+    padding-left: 100px;
+}
+
+.topo img{
+    height: 300px;
+}
+
+.rodada{
+    padding: 20px;
+}
+
+.rodada img{
+    height: 180px;
+}
+
+.rodada-jogos{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
